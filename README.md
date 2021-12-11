@@ -18,13 +18,15 @@
 - You should download all project dependencies"body-parser , cors , express" in server.js file. Here is the code to install packages with NPM from the command line: `npm install package-name`
 - The project file server.js should require express(), and should include an instance of their app using express. Here is how to create instance for the app `const app = express();`
 - The Express app instance should be pointed to the project folder with .js files.
--  Start the server.js in the terminal by typing: node server.js (make sure you are in the same directory as the server.js).
+
 
 ## How to use
-1. Start the server then go to the browser and type "localhost:5000". 
-2. Type Zipcode of the city.
-3. Type your feelings in the corresponding textarea.
-4. Press generate.
+1. Install all dependencies by typing in the terminal: npm install
+2. Start the server.js in the terminal by typing: node server.js (make sure you are in the same directory as the server.js). 
+3. Go to the browser and type "localhost:5000". 
+4. Type Zipcode of the city.
+5. Type your feelings in the corresponding textarea.
+6. Press generate.
 
 
 
